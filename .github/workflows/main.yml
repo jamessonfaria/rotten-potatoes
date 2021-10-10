@@ -27,7 +27,7 @@ jobs:
           push: true
           tags:
             jamessonjr/rotten-potatoes:latest
-            jamessonjr/rotten-potatoes:${{ github.num_number }}
+            jamessonjr/rotten-potatoes:${{ github.run_number }}
             
         
       
